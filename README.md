@@ -10,7 +10,6 @@ This project was built to practice the fundamentals of web development, includin
 
 - HTML
 - CSS
-- JavaScript
 - Firebase Hosting
 
 ## Project Status
