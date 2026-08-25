@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarviewPH</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+        }
+
+        header {
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+            max-height: 120px;
+        }
+
+        .image-container {
+            width: auto;
+            height: 400px; 
+            position: relative;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            display: block;
+        }
+
+        .featured {
+            font-family: 'Orbitron', sans-serif;
+            font-weight: bolder;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .video {
+            margin: 20px auto;
+            max-width: 360px;
+        }
+
+        .link-grid {
+            font-size: 13px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 650px;
+            margin: 20px auto;
+        }
+
+        .link-grid a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: lighter;
+        }
+
+        .link-grid a:hover span {
+            color: #161D33;
+        }
+
+        .link-item {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            align-items: center;
+            gap: 1vw;
+        }
+
+        .link-item img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="image/logo.png" alt="Logo">
+    </header>
+
+    <section class="section-blue">
+        <nav class="nav-links">
+            <a href="cars.html">Our Vlogs</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="aboutcars.html">Cars</a>
+            <a href="contact.html">Contacts</a>
+        </nav>
+
+        <div class="image-container">
+            <img src="image/homecover.jpg" alt="Home Cover Image">
+        </div>
+
+        <img class="car-image" src="image/carviewph.png" alt="Car View">
+
+        <a href="cars.html" class="discover-more">DISCOVER MORE ></a>
+    </section>
+
+    <div class="featured">FEATURED VIDEOS</div>
+    <div class="video">
+        <iframe width="80%" height="175" src="https://www.youtube.com/embed/p5jlLtozY4Y" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="link-grid">
+        <div class="link-item">
+            <img src="image/icons/facebook.png" alt="Logo 1">
+            <a href="https://www.facebook.com/profile.php?id=100083374380999" target="_blank"><span>CarviewPH</span></a>
+        </div>
+        <div class="link-item">
+            <img src="image/icons/youtube.png" alt="Logo 2">
+            <a href="https://www.youtube.com/@carviewph" target="_blank"><span>carviewPH</span></a>
+        </div>
+        <div class="link-item">
+            <img src="image/icons/phone.png" alt="Phone Icon">
+            <div>
+                <a href="tel:+09778112745" target="_blank"><span>09778112745</span></a><br>
+                <a href="tel:+09228362141" target="_blank"><span>09228362141</span></a>
+            </div>
+        </div>
+        <div class="link-item">
+            <img src="image/icons/tiktok.png" alt="Logo 4">
+            <a href="https://www.tiktok.com/@carviewph5" target="_blank"><span>carviewph5</span></a>
+        </div>
+        <div class="link-item">
+            <img src="image/icons/gmail.png" alt="Logo 5">
+            <a href="mailto:carviewph@gmail.com" target="_blank"><span>carviewph@gmail.com</span></a>
+        </div>
+        <div class="link-item">
+            <img src="image/icons/maps.png" alt="Logo 6">
+            <a href="https://maps.google.com?q=Tanza,+Cavite" target="_blank"><span>Tanza, Cavite</span></a>
+        </div>
+    </div>
+</body>
+</html>

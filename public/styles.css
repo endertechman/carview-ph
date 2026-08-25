@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 120px;
+}
+
+.image-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.section-blue {
+    width: 100%;
+    background-color: #161D33;
+    border-top: 7px solid #EEBA2B;
+    border-bottom: 7px solid #EEBA2B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.section-bluee {
+    width: 100%;
+    background-color: #161D33;
+    border-top: 7px solid #EEBA2B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin-bottom: 12px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #EEBA2B;
+}
+
+.car-image {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.discover-more {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.discover-more:hover {
+    color: #EEBA2B;
+}
+
+.car-image {
+    height: 110px;
+    max-width: 100%;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+    color: #161D33;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.car-grid a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    display: block;
+}
+
+.car-grid a:hover {
+    color: #EEBA2B;
+}
+
+.logo1 {
+    max-width: 100%;
+    height: auto;
+    max-height: 60px;
+    margin-right: 20px;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper img {
+    height: 140px;
+    max-width: 100%;
+}
+
+.all-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6vw;
+    justify-content: center;
+}
+
+.all-profiless {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+}
+
+.profile-name {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-picture img {
+    width: auto;
+    height: 250px;
+    object-fit: cover;
+    border-left: 5px solid #EEBA2B;
+    border-bottom: 5px solid #EEBA2B;
+}
+
+.profile-description {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+
+.profile-socials {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    gap: 12px;
+}
+
+.profile-socials a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.profile-socials a:hover {
+    color: #EEBA2B;
+}
+
+.profile-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.profile-card {
+    position: relative;
+    width: auto;
+    height: 170px;
+}
+
+.profile-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.profile-text {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}

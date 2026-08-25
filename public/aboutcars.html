@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarviewPH</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+        }
+        header {
+            position: sticky;
+            top: 0;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: white;
+            border-bottom: 1px solid #161D33;
+            z-index: 1000;
+        }
+        .title {
+            margin: 20px 0;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 0 auto;
+        }
+        .cars-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 5vw;
+            text-align: center;
+        }
+        .cars {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .cars img {
+            max-width: 100%;
+            height: auto;
+            width: 300px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+        .subtitle {
+            font-family: 'Orbitron', sans-serif;
+            color: #EEBA2B;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        .explanation {
+            color: white;
+            font-size: 16px;
+            max-width: 300px;
+            margin: auto;
+        }
+        .car-tips {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 3vw;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .car-tip-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .car-tip-item img {
+            max-width: 100%;
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .description-car-tip {
+            font-size: 14.5px;
+            max-width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="image/logo.png" alt="Logo" class="logo1">
+        </a>
+    </header>
+    <div class="title">CARS</div>
+    <br>
+    <section class="section-blue">
+        <br>
+        <div class="cars-container">
+            <div class="cars">
+                <div class="subtitle">BUDGET CARS</div>
+                <a href="cars.html">
+                    <img src="image/cars/budget.png" alt="Budget Cars">
+                </a>
+                <div class="explanation">Affordable vehicles designed to be economical, providing basic features and reliable performance without a hefty price tag.</div>
+            </div>
+            <div class="cars">
+                <div class="subtitle">SECOND-HAND CARS</div>
+                <img src="image/cars/secondhand.png" alt="Second-Hand Cars">
+                <div class="explanation">Pre-owned vehicles that have had previous owners, offering a more affordable option for buyers, with a variety of age, condition, and pricing.</div>
+            </div>
+            <div class="cars">
+                <div class="subtitle">LUXURY CARS</div>
+                <a href="cars.html">
+                    <img src="image/cars/luxury.png" alt="Luxury Cars">
+                </a>
+                <div class="explanation">High-end vehicles offering advanced technology, superior comfort, premium materials, and exceptional performance, often associated with prestige and exclusivity.</div>
+            </div>
+            <div class="cars">
+                <div class="subtitle">ANTIQUE CARS</div>
+                <img src="image/cars/antique.png" alt="Antique Cars">
+                <div class="explanation">Classic vehicles, typically over 25 years old, valued for their historical significance, craftsmanship, and collector appeal.</div>
+            </div>
+        </div>
+        <br>
+        <a href="cars.html" class="discover-more">DISCOVER HERE ></a>
+    </section>
+    <br>
+    <div class="title">BASIC MAINTENANCE TIPS</div><br>
+    <div class="car-tips">
+        <div class="car-tip-item">
+            <img src="image/tips/01.png" alt="Tip 1">
+            <div class="description-car-tip"><b>BATTERY</b><br>Check the battery terminals for corrosion and ensure the battery is securely fastened.</div>
+        </div>
+        <div class="car-tip-item">
+            <img src="image/tips/02.png" alt="Tip 2">
+            <div class="description-car-tip"><b>LIGHTS</b><br>Verify that all headlights, taillights, brake lights, and turn signals are functioning correctly.</div>
+        </div>
+        <div class="car-tip-item">
+            <img src="image/tips/03.png" alt="Tip 3">
+            <div class="description-car-tip"><b>OIL</b><br>Check the engine oil level and ensure it's within the recommended range.</div>
+        </div>
+        <div class="car-tip-item">
+            <img src="image/tips/04.png" alt="Tip 4">
+            <div class="description-car-tip"><b>WATER</b><br>Inspect the coolant level and check for any leaks in the cooling system.</div>
+        </div>
+        <div class="car-tip-item">
+            <img src="image/tips/05.png" alt="Tip 5">
+            <div class="description-car-tip"><b>BRAKES</b><br>Ensure the brakes are in good working order and check the brake fluid level.</div>
+        </div>
+        <div class="car-tip-item">
+            <img src="image/tips/06.png" alt="Tip 6">
+            <div class="description-car-tip"><b>AIR</b><br>Check the tire pressure and ensure it's within the recommended range.</div>
+        </div>
+        <div class="car-tip-item">
+            <img src="image/tips/07.png" alt="Tip 7">
+            <div class="description-car-tip"><b>GAS</b><br>Make sure you have enough fuel for your trip.</div>
+        </div>
+        <div class="car-tip-item">
+            <img src="image/tips/08.png" alt="Tip 8">
+            <div class="description-car-tip"><b>ENGINE</b><br>Listen for any unusual noises or check for any leaks or damage.</div>
+        </div>
+        <div class="car-tip-item">
+            <img src="image/tips/09.png" alt="Tip 9">
+            <div class="description-car-tip"><b>TIRES</b><br>Check the tire tread depth and ensure the tires are properly inflated.</div>
+        </div>
+        <div class="car-tip-item">
+            <img src="image/tips/10.png" alt="Tip 10">
+            <div class="description-car-tip"><b>SELF</b><br>Ensure you are in good physical and mental condition to drive safely.</div>
+        </div>
+    </div>
+    <br>
+    <section class="section-bluee" style="width: 100%; background-color: #161D33;">
+        <img class="car-image" src="image/carviewph.png" alt="Car View">
+    </section>
+</body>
+</html>
